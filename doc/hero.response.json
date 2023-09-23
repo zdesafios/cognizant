@@ -1,0 +1,223 @@
+{
+	"heros": [
+		{
+			"id": "033",
+			"name": "Flash",
+			"rounds": [
+				{
+					"startTime": "23:49:10.858",
+					"speed": 43.243,
+					"time": "00:01:04.352",
+					"count": 1
+				},
+				{
+					"startTime": "23:50:14.86",
+					"speed": 43.48,
+					"time": "00:01:04.002",
+					"count": 2
+				},
+				{
+					"startTime": "23:51:18.576",
+					"speed": 43.675,
+					"time": "00:01:03.716",
+					"count": 3
+				},
+				{
+					"startTime": "23:52:22.586",
+					"speed": 43.474,
+					"time": "00:01:04.01",
+					"count": 4
+				}
+			],
+			"totalAverageSpeed": 43.468,
+			"totalTime": "00:04:16.08",
+			"bestRound": 43.243
+		},
+		{
+			"id": "011",
+			"name": "GATOAJATO",
+			"rounds": [
+				{
+					"startTime": "23:52:01.796",
+					"speed": 13.169,
+					"time": "00:03:31.315",
+					"count": 1
+				},
+				{
+					"startTime": "23:53:39.66",
+					"speed": 28.435,
+					"time": "00:01:37.864",
+					"count": 2
+				},
+				{
+					"startTime": "23:54:57.757",
+					"speed": 35.633,
+					"time": "00:01:18.097",
+					"count": 3
+				}
+			],
+			"totalAverageSpeed": 25.745666666666665,
+			"totalTime": "00:06:27.276",
+			"bestRound": 13.169
+		},
+		{
+			"id": "023",
+			"name": "Sonic",
+			"rounds": [
+				{
+					"startTime": "23:49:12.667",
+					"speed": 43.202,
+					"time": "00:01:04.414",
+					"count": 1
+				},
+				{
+					"startTime": "23:50:17.472",
+					"speed": 42.941,
+					"time": "00:01:04.805",
+					"count": 2
+				},
+				{
+					"startTime": "23:51:21.759",
+					"speed": 43.287,
+					"time": "00:01:04.287",
+					"count": 3
+				},
+				{
+					"startTime": "23:52:25.975",
+					"speed": 43.335,
+					"time": "00:01:04.216",
+					"count": 4
+				}
+			],
+			"totalAverageSpeed": 43.191250000000004,
+			"totalTime": "00:04:17.722",
+			"bestRound": 42.941
+		},
+		{
+			"id": "002",
+			"name": "Mercúrio",
+			"rounds": [
+				{
+					"startTime": "23:49:11.075",
+					"speed": 43.408,
+					"time": "00:01:04.108",
+					"count": 1
+				},
+				{
+					"startTime": "23:50:15.057",
+					"speed": 43.493,
+					"time": "00:01:03.982",
+					"count": 2
+				},
+				{
+					"startTime": "23:51:19.044",
+					"speed": 43.49,
+					"time": "00:01:03.987",
+					"count": 3
+				},
+				{
+					"startTime": "23:52:22.12",
+					"speed": 44.118,
+					"time": "00:01:03.076",
+					"count": 4
+				}
+			],
+			"totalAverageSpeed": 43.62725,
+			"totalTime": "00:04:15.153",
+			"bestRound": 43.408
+		},
+		{
+			"id": "015",
+			"name": "PAPALÉGUA",
+			"rounds": [
+				{
+					"startTime": "23:49:30.976",
+					"speed": 35.47,
+					"time": "00:01:18.456",
+					"count": 1
+				},
+				{
+					"startTime": "23:50:37.987",
+					"speed": 41.528,
+					"time": "00:01:07.011",
+					"count": 2
+				},
+				{
+					"startTime": "23:51:46.691",
+					"speed": 40.504,
+					"time": "00:01:08.704",
+					"count": 3
+				},
+				{
+					"startTime": "23:53:06.741",
+					"speed": 34.763,
+					"time": "00:01:20.05",
+					"count": 4
+				}
+			],
+			"totalAverageSpeed": 38.06625,
+			"totalTime": "00:04:54.221",
+			"bestRound": 34.763
+		},
+		{
+			"id": "038",
+			"name": "Superman",
+			"rounds": [
+				{
+					"startTime": "23:49:08.277",
+					"speed": 44.275,
+					"time": "00:01:02.852",
+					"count": 1
+				},
+				{
+					"startTime": "23:50:11.447",
+					"speed": 44.053,
+					"time": "00:01:03.17",
+					"count": 2
+				},
+				{
+					"startTime": "23:51:14.216",
+					"speed": 44.334,
+					"time": "00:01:02.769",
+					"count": 3
+				},
+				{
+					"startTime": "23:52:17.003",
+					"speed": 44.321,
+					"time": "00:01:02.787",
+					"count": 4
+				}
+			],
+			"totalAverageSpeed": 44.24575,
+			"totalTime": "00:04:11.578",
+			"bestRound": 44.053
+		}
+	],
+	"bestHero": {
+		"id": "011",
+		"name": "GATOAJATO",
+		"rounds": [
+			{
+				"startTime": "23:52:01.796",
+				"speed": 13.169,
+				"time": "00:03:31.315",
+				"count": 1
+			},
+			{
+				"startTime": "23:53:39.66",
+				"speed": 28.435,
+				"time": "00:01:37.864",
+				"count": 2
+			},
+			{
+				"startTime": "23:54:57.757",
+				"speed": 35.633,
+				"time": "00:01:18.097",
+				"count": 3
+			}
+		],
+		"totalAverageSpeed": 25.745666666666665,
+		"totalTime": "00:06:27.276",
+		"bestRound": 13.169
+	}
+}

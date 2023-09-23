@@ -13,7 +13,7 @@ class BitmapSearcherTest {
 	
 	@DisplayName("Deve retornar uma string quando chamar o método 'seachAsString'")
 	@Test
-	void seach() {
+	void mustToReturnString() {
 		BitmapSearcher bitmapSearcher = new BitmapSearcher();
 		BitmapService bitmapService = new BitmapService();
 		int[] pixelsForSearchAsArray = {1,2, 21, 100};
@@ -23,7 +23,7 @@ class BitmapSearcherTest {
 	
 	@DisplayName("Deve retornar uma map com 4 elementos quando passar {1,2, 21, 100}")
 	@Test
-	void seachString() {
+	void mustToReturnMap() {
 		BitmapSearcher bitmapSearcher = new BitmapSearcher();
 		BitmapService bitmapService = new BitmapService();
 		int[] pixelsForSearchAsArray = {1,2, 21, 100};
@@ -36,7 +36,7 @@ class BitmapSearcherTest {
 	
 	@DisplayName("Deve levantar exceção quando for passado um valor nulo para o bitmap")
 	@Test
-	void seachs() {
+	void mustToThrowExceptionOnPassBitmapNull() {
 		BitmapSearcher bitmapSearcher = new BitmapSearcher();
 		BitmapService bitmapService = new BitmapService();
 		int[] pixelsForSearchAsArray = {1,2};
@@ -50,7 +50,7 @@ class BitmapSearcherTest {
 	
 	@DisplayName("Deve levantar exceção quando for passado um valor nulo para o array de busca")
 	@Test
-	void seachss() {
+	void mustToThrowExceptionOnPassPixelsForSearchAsArrayNull() {
 		BitmapSearcher bitmapSearcher = new BitmapSearcher();
 		BitmapService bitmapService = new BitmapService();
 		int[] pixelsForSearchAsArrayNull = null;

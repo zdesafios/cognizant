@@ -1,5 +1,6 @@
 package com.desafios.heroes.domain.model;
 
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -43,6 +44,16 @@ public class Hero {
 		Integer roundCount = rounds.size();
 		Double totalAverageSpeed = totalSpeed / roundCount;
 		return  totalAverageSpeed;
+	}
+	
+	@JsonProperty
+	public LocalTime totalTime() {
+		return rounds.stream().map(round-> round.time).reduce((current, acc)-> acc
+					.plusHours(current.getHour())
+					.plusMinutes(current.getMinute())
+					.plusSeconds(current.getSecond())
+					.plusNanos(current.getNano())
+		).orElse(null);
 	}
 	
 	private Stream<Double> getSpeedsAsStream(List<Round> rounds) {
