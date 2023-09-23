@@ -4,6 +4,8 @@ import java.util.Map;
 
 import org.springframework.stereotype.Service;
 
+import com.desafios.core.exceptions.ResourceNotFoundException;
+
 
 @Service
 public class BitmapService {
@@ -117,6 +119,9 @@ public class BitmapService {
 
 	
 	public int[][] loadBitmapById(String id) {
+		if(!bitmaps.containsKey(id)) {
+			throw new ResourceNotFoundException("Image not found ["+id+"]");
+		}
 		return bitmaps.get(id);
 	}
 	

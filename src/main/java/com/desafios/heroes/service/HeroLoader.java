@@ -79,7 +79,7 @@ public class HeroLoader {
 
 		String[] datas = line.split(";");
 		if (datas.length != 5) {
-			throw new RuntimeException("Erro na estrutura do log");
+			throw new IllegalArgumentException("Erro na estrutura do log");
 		}
 
 		Round round = createRound(
@@ -97,7 +97,7 @@ public class HeroLoader {
 
 		String[] heroParts = heroIdAndName.split("–");
 		if (heroParts.length < 2) {
-			throw new RuntimeException("Erro na estrutura do log [id–name]");
+			throw new IllegalArgumentException("Erro na estrutura do log [id–name]");
 		}
 
 		String heroId = heroParts[HERO_ID_POSITION];
@@ -126,7 +126,7 @@ public class HeroLoader {
 			return Round.builder().count(count).startTime(startTime).time(time).speed(speed).build();
 
 		} catch (Exception e) {
-			throw new RuntimeException("Erro converter Round");
+			throw new IllegalArgumentException("Erro converter Round");
 		}
 	}
 
