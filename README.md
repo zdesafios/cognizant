@@ -20,7 +20,7 @@ Esse tema foi abordado:
 * classe: com.desafios.bitmap.service.BitmapSearcher
 * Testes: com.desafios.bitmap.service.BitmapSearcherTest
 * Endpoint: GET localhost:8080/bitmap/image1?q=1,2
-* JSON: [JSON responsta da busca por bit's](https://github.com/zdesafios/cognizant/blob/master/doc/bitmap.response.json)
+* JSON: [JSON responsta da busca por bytes](https://github.com/zdesafios/cognizant/blob/master/doc/bitmap.response.json)
 
 
 ### Questão 3
