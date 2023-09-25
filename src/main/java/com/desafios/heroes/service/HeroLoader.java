@@ -45,11 +45,6 @@ public class HeroLoader {
 				heroes.put(heroWithRound.getId(), heroWithRound);
 			}
 		});
-
-		heroes.values().stream().forEach(h->{
-			
-			
-		});
 		
 		return heroes.values().stream().toList();
 	}
